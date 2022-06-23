@@ -8,6 +8,10 @@ const createUserPassword = require('../../lib/crypto').createUserPassword
 
 class UserController {
 
+    loginform(req, res, next) {
+        res.render('users/signup')
+    }
+    
     // [GET] /user
     index(req, res) {console.log(req);
         if (!req.user) {
