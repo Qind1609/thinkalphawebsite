@@ -17,7 +17,7 @@ require('./app/middlewares/localAuth')
 const route = require('../src/routes/index')
 const db = require('./config/mongoose')
 const path = require('path')
-const port = 5000
+const port = 80
 
 // session
 app.use(session(sessionConfig))
