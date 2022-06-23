@@ -1,0 +1,8 @@
+  {{#each user}}
+    <li>{{this.name}}</li>
+    <li>{{this.username}}</li>
+    <li>{{this.salt}}</li>
+  {{/each}}
+  <a href="/user/logout">
+      <button type="submit" class="btn btn-primary" style="margin-top: 30px;">Log out</button>
+    </a>

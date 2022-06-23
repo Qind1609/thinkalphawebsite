@@ -1,0 +1,37 @@
+{
+  "name": "thinkalphaweb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon --inspect src/index.js",
+    "watch": "node-sass --watch src/resources/scss/style.scss src/public/css/style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Thanh Nhan",
+  "license": "ISC",
+  "dependencies": {
+    "connect-mongo": "^4.5.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.3",
+    "express-session": "^1.17.2",
+    "googleapis": "^88.2.0",
+    "handlebars": "^4.7.7",
+    "install": "^0.13.0",
+    "mongoose": "^6.0.4",
+    "mongoose-findorcreate": "^3.0.0",
+    "mongoose-int32": "^0.5.0",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.3",
+    "node-sass": "^6.0.1",
+    "nodemailer": "^6.6.5",
+    "nodemon": "^2.0.12",
+    "npm": "^7.22.0",
+    "passport": "^0.4.1",
+    "passport-google-verify-token": "^2.0.0",
+    "passport-local": "^1.0.0"
+  }
+}
