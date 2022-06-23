@@ -4,7 +4,7 @@ sessionConfig = {
     secret: 'some secret',
     resave: false,
     saveUninitialized: true,
-    store: MongoStore.create({ mongoUrl: 'mongodb://localhost:27017/ThinkAlpha_dev' }),
+    store: MongoStore.create({ mongoUrl: 'mongodb://localhost:12345/ThinkAlpha_prod' }),
     cookie: { 
       maxAge: 1000 * 60 
      }
